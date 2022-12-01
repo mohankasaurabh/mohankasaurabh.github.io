@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ordercss.css">
+    <title>Order</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/logo1.png" alt="">
+        </div>
+
+        <div class="box">
+            <a class="home" href="/index.html" target="_self"> Home</a>
+            <a class="about" href="/about.html" target="_self"> About us</a>
+            <a class="menu" href="/menu.html" target="_self"> Menu</a>
+        </div>
+
+        <div class="side">
+            <a class="ctact" href="/contact.html" target="_self">Contact</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a class="order" href="/order.html" target="_self">Order</a>
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="contact-form">
+            <form action="">
+                <h1>Order <span>Us</span></h1>
+                <p>Thanks You for chossing us, Kindly write the order as you want to eat. We will vey happy to serve you. </p>
+                <input type="" placeholder="Your Name" required>
+                <input type="email" name="email" id="" placeholder="E-mail" required>
+                <input type="" placeholder="Mobile no." required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Item name here which you want to eat :" required></textarea>
+                <input type="submit" onclick="one()" name="" value="Order Now" class="btn">
+            </form>
+        </div>
+
+        <div class="contact-img">
+            <img src="/orderimg.jpg">
+        </div>
+
+
+        <script>
+            function one(){
+                alert("Thanks for order, Your food is in process. Once food is ready we will inform you.")
+            }
+        </script>
+
+    </section>
+
+</body>
+</html>

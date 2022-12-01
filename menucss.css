@@ -1,0 +1,99 @@
+.header{
+    padding: 1rem 7%;
+    position:absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #1d1d23;
+    margin: 0%;
+}
+
+.logo{
+    width: 3px;
+}
+
+.box a{
+    color: darkgray;
+    padding: 0.6rem 1.5rem;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+
+.home:hover{
+    color: white;
+    background-color: darkgray;
+}
+.about:hover{
+    color: white;
+    background-color: darkgray;
+}
+.team:hover{
+    color: white;
+    background-color: darkgray;
+}
+.review:hover{
+    color: white;
+    background-color: darkgray;
+}
+.menu:hover{
+    color: white;
+    background-color: darkgray;
+}
+
+.side a{
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+.contact:hover{
+    color: white;
+    background-color: orange;
+}
+
+.order:hover{
+    color: white;
+    background-color: orange;
+}
+
+
+body{
+    margin: 0%;
+    background-color: rgb(94,99,97);
+}
+
+.menuname{
+    color: antiquewhite;
+    background-color: rgb(86, 75, 86);
+    height: 80px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.menuname h2{
+    margin: auto;
+    padding: 30px;
+
+}
+
+.menucon{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(94, 99, 97);
+    width: 100%;
+    color: antiquewhite;
+}
+
+.v, .nv {
+    width: 40%;
+    padding: 10px 0 0 40px ;
+} 

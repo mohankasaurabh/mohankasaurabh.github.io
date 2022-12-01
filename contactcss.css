@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*head css Start here*/
+
+header{
+    padding: 1rem 7%;
+    position:relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #1d1d23;
+    margin: 0%;
+}
+
+.logo{
+    width: 3px;
+}
+
+.box a{
+    color: darkgray;
+    padding: 0.6rem 1.5rem;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+
+.home:hover{
+    color: white;
+    background-color: darkgray;
+}
+.about:hover{
+    color: white;
+    background-color: darkgray;
+}
+.team:hover{
+    color: white;
+    background-color: darkgray;
+}
+.review:hover{
+    color: white;
+    background-color: darkgray;
+}
+.menu:hover{
+    color: white;
+    background-color: darkgray;
+}
+
+.side a{
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+.ctact:hover{
+    color: white;
+    background-color: orange;
+}
+
+.order:hover{
+    color: white;
+    background-color: orange;
+}
+
+/*body css Start here*/
+
+section{
+    padding: 40px 15%;
+}
+
+.contact{
+    background: #101010;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-img img{
+    max-width: 100%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form h1{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+span{
+    color: red;
+}
+
+.contact-form p {
+    color: #c9c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+.contact-form form{
+    position: relative;
+}
+.contact-form form input,form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form form .btn{
+    background: #f9004d;
+    font-size: 1.1rem
+}
+
+.contact-form form .btn:hover{
+    border: 2px solid #f9004d;
+    background: transparent;
+}

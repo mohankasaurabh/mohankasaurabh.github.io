@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*head css Start here*/
+
+header{
+    padding: 1rem 7%;
+    position:relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #1d1d23;
+    margin: 0%;
+}
+
+.logo{
+    width: 3px;
+}
+
+.box a{
+    color: darkgray;
+    padding: 0.6rem 1.5rem;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+
+.home:hover{
+    color: white;
+    background-color: darkgray;
+}
+.about:hover{
+    color: white;
+    background-color: darkgray;
+}
+.team:hover{
+    color: white;
+    background-color: darkgray;
+}
+.review:hover{
+    color: white;
+    background-color: darkgray;
+}
+.menu:hover{
+    color: white;
+    background-color: darkgray;
+}
+
+.side a{
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+.contact:hover{
+    color: white;
+    background-color: orange;
+}
+
+.order:hover{
+    color: white;
+    background-color: orange;
+}
+
+/*body css Start here*/
+
+body,html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif' 
+    ;
+    font-weight: 400;
+    background-color: #ededed;
+
+}
+
+.contain{
+    height: 100vh;
+    
+    
+}
+
+.contain img{
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contain .text{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align:center;
+    height: 400px;
+}
+.text .h1eat{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:'Brush Script MT', cursive;;
+    color: orange;
+}
+.text .h1{
+    font-size: 50px;
+    font-family: Georgia, serif;;
+}
+
+.text .h2{
+    font-size: 50px;
+    font-family: Georgia, serif;;
+}
+
+.text pre{
+    font-size: 20px;
+    
+    padding: 0px 50px;
+    font-family: Georgia, serif;;
+}
+
+.text a{
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+/*Footer css Start here*/
+
+footer {
+    
+    bottom: 0;
+    background-color: #1d1d23;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+footer .social a{
+    font-size: 25px;
+    color: inherit;
+    width: 40px;
+    height:40px;
+    line-height: 38px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+footer .social a:hover{
+    opacity: 0.9;
+}
+
+footer ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+footer ul li a {
+    color: darkgrey;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+footer ul li:hover{
+    opacity: 0.6;
+    background-color: white;
+    
+}
+
+footer .copyright{
+    text-align: center;
+    font-size: 1.5em;
+    color: darkgray;
+
+}
+

@@ -1,0 +1,98 @@
+.header{
+    padding: 1rem 7%;
+    position:relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #1d1d23;
+    margin: 0%;
+}
+
+.logo{
+    width: 3px;
+}
+
+.box a{
+    color: darkgray;
+    padding: 0.6rem 1.5rem;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+       
+}
+
+.home:hover{
+    color: white;
+    background-color: darkgray;
+}
+.about:hover{
+    color: white;
+    background-color: darkgray;
+}
+.team:hover{
+    color: white;
+    background-color: darkgray;
+}
+.review:hover{
+    color: white;
+    background-color: darkgray;
+}
+.menu:hover{
+    color: white;
+    background-color: darkgray;
+}
+
+.side a{
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+   
+}
+.contact:hover{
+    color: white;
+    background-color: orange;
+}
+
+.order:hover{
+    color: white;
+    background-color: orange;
+}
+
+
+body{
+    margin: 0%;
+    background-color: #0b4747;
+    
+}
+
+.wd {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 90px;
+}
+
+.wd img{
+    border-radius: 50px;
+    margin-top: 70px;
+    
+}
+
+.wd h1{
+    color: orange;
+}
+
+.wd .abo{
+    
+    width:500px;
+    height:539px;
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+    padding: 55px;
+}
